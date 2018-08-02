@@ -12,17 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast"
+
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Jackone的个人网站"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Jackone"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://wrmswindmill.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "wrmswindmill/wrmswindmill.github.io"
+
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -58,8 +63,11 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+# search                   : # true, false (default)
+search                   : true
+# search_full_content      : # true, false (default)
+search_full_content      : true
+
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -100,10 +108,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jackone"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "hunan china"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -266,6 +274,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
